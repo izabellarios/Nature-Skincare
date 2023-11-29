@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: white;
+}
+.announcement-bar {
+  position: relative;
+  text-align: center;
+  background-color: #6c7c5c;
+  color: white;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+}
+.menu {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5em;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.logo {
+  /* height: 150px;
+    width: 150px;
+    border-radius: 100%;*/
+  position: relative;
+  right: 20%;
+  /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+.front1 {
+  width: 49%;
+  margin: 1px;
+  float: right;
+}
+.front2 {
+  width: 49%;
+  margin: 1px;
+  float: left;
+}
+/* @media screen and (max-width: 820px) {
+
+    .logo {
+        right: 0%;
+    
+
+    }
+} */
+.sentence {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 30vh;
+  background-color: #c6bcac;
+  margin-top: 40px;
+}
+.whynature {
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 100%;
+  height: 30vh;
+  background-color: #bcc5b3;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 7%;
+  color: black;
+}
+.whyflex {
+  display: flex;
+  justify-content: space-around;
+}
+.cosmetics {
+  padding: 2% 0 2% 0;
+}
+/* .contact{
+    background-color: white;
+    text-align: center;
+    margin: 0;
+} */
+
+.message {
+  display: block;
+  text-align: left;
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.025em;
+  padding: 8px 10px;
+  margin: 0 0 30px;
+}
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
+
+.women {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* .color1 { #7f906e };
+.color2 { #bcc5b3 };
+.color3 { #424b39 };
+.color4 { #6c7c5c };
+.color5 { #c4ccbc }; */
+
+/* .color1 { #bca33a };
+.color2 { #dcc18d };
+.color3 { #786707 };
+.color4 { #a48365 };
+.color5 { #ccb4a3 }; */
+
+/* .color1 { #b66e2e };
+.color2 { #d5bda0 };
+.color3 { #345409 };
+.color4 { #af8864 };
+.color5 { #c6bcac }; */
+
+.product-img {
+  width: 100%;
+  height: 40vh;
+  margin: 0;
+  object-fit: cover;
+}
+
+.final-bar {
+  position: relative;
+  text-align: center;
+  background-color: #ccb4a3;
+  color: black;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+}
+.about1 {
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  object-fit: cover;
+}
+
+.about2 {
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  object-fit: cover;
+}
+
+.aloevera {
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  object-fit: cover;
+}
